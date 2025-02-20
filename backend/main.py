@@ -76,7 +76,7 @@ def create_med(name: str = Form(...), price: float = Form(...)):
         new_med = {"name": name, "price": price}
         current_db["medicines"].append(new_med)
         meds.seek(0)
-        json.dump(current_db, meds)
+        json.dump(current_db, meds )
         meds.truncate()
         
     return {"message": f"Medicine created successfully with name: {name}"}

@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Medicine Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="disclaimer" id="disclaimer">
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="manage.html">Add Medicines</a>
+    </div>
+
+    <h1 class="title">Medicine Tracker</h1>
+
+    <div class="disclaimer">
         Disclaimer: All medicine names and prices used in this application are fictional and do not represent any real medicine(s).
     </div>
-    <header>
-        <h1>Medicine Tracker</h1>
-    </header>
-    <main>
 
+    <div class="container">
+
+      
+        <div class="card" id="total-medicines">
+            <h2>Total Medicines</h2>
+            <p class="number" id="medicine-count">0</p>
+            <p>Items in Database</p>
+        </div>
+
+        <div class="card" id="average-price">
+            <h2>Average Price</h2>
+            <p class="number" id="average-price-value">0</p>
+            <p>Average Price of Medicines</p>
+        </div>
     </main>
-    <script src="script.js"></script>
+
+    
+    <script src="dashboard.js"></script>
+
 </body>
 </html>

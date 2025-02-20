@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Management</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="manage.html">Add Medicines</a>
+    </nav>
+    
+    <h1 class="title">Medicine Management</h1>
+
+    <main>
+        <div class="welcome">
+            <h2 class="title">Welcome to the Medicine Management System</h2>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search medicine...">
+            <button id="search-btn">🔍</button>
+        </div>
+    
+        <div class="form-container">
+            <h3>Add Medicine</h3>
+            <form id="medicine-form">
+                <input type="text" id="name" placeholder="Medicine Name" required>
+                <input type="number" id="price" placeholder="Price" required>
+                <button type="submit" class="add-btn">Add Medicine</button>
+            </form>
+        </div>
+
+        <!-- Medicine List -->
+<div class="medicine-grid-container">
+    <h3>Medicine List</h3>
+    <div id="medicine-grid"></div>
+</div>
+        
+    </main>
+
+    <footer class="footer">
+        © 2025 Medicine Tracker 
+    </footer>
+
+    
+
+    <script src="manage.js"></script>
+
+    
+</body>
+</html>

@@ -9,7 +9,7 @@ This project is designed to enhance healthcare service delivery by creating an e
 
 To begin, I verified that the necessary tools, such as Python and Git, were installed on my machine. I confirmed their versions using the following commands:
 
-```bash
+```sh
 python --version
 git --version
 
@@ -24,16 +24,11 @@ Following this, I created a GitHub repository and linked it to the cloned projec
 
 Once the initial changes were committed to Git with a suitable commit message, I proceeded with setting up the backend environment. This process included making the `start.sh` script executable with the following command:
 
-
-
 chmod +x start.sh
-
 
 I then executed it using:
 
-
 ./start.sh
-
 
 
 Once the backend server was up and running, I proceeded to test the API endpoints developed in Python using Postman.
@@ -61,29 +56,21 @@ Testing was a significant part of the project. I used Postman to test each API e
 ### 1. Test: Retrieve All Medicines
 
 To validate the `/medicine` endpoint, a GET request was executed using Postman. The request successfully returned a status code of 200 and included a JSON body containing the details of all medicines.
-
 ![alt text](assets/1.png)
-
-
 ### 2. Test: Frontend Verification
 
 The frontend functionality was verified by opening the `index.html` file in a web browser. The user interface displayed a header titled "Medicine Tracker," confirming the frontend was operational.
-
 ![alt text](assets/2.png)
-
 ### 3. Test: Retrieve Medicine by Name
 
 The `/medicine/{name}` endpoint was tested by sending a GET request for a specific medicine named *Tonicast*. The response returned a status code of 200, including the requested medicine details. This endpoint was further tested with another medicine, *Cureallium*, to ensure consistent functionality.
-
 ![alt text](assets/3.png)
 ![alt text](assets/4.png)
-
 ### 4. Test: Create a New Medicine
 
 The `/create` endpoint was tested by sending a POST request via Postman, including the new medicine's name and price in the form-data. The response confirmed successful creation with a status code of 200.
 
 ![alt text](assets/6.png)
-
 ![alt text](assets/7.png)
 
 

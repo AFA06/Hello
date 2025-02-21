@@ -62,42 +62,42 @@ Testing was a significant part of the project. I used Postman to test each API e
 
 To validate the `/medicine` endpoint, a GET request was executed using Postman. The request successfully returned a status code of 200 and included a JSON body containing the details of all medicines.
 
-![Alt text](assets/1.png)
+![alt text](assets/1.png)
 
 
 ### 2. Test: Frontend Verification
 
 The frontend functionality was verified by opening the `index.html` file in a web browser. The user interface displayed a header titled "Medicine Tracker," confirming the frontend was operational.
 
-![Alt text](assets/2.png)
+![alt text](assets/2.png)
 
 ### 3. Test: Retrieve Medicine by Name
 
 The `/medicine/{name}` endpoint was tested by sending a GET request for a specific medicine named *Tonicast*. The response returned a status code of 200, including the requested medicine details. This endpoint was further tested with another medicine, *Cureallium*, to ensure consistent functionality.
 
-![Alt text](assets/3.png)
-![Alt text](assets/4.png)
+![alt text](assets/3.png)
+![alt text](assets/4.png)
 
 ### 4. Test: Create a New Medicine
 
 The `/create` endpoint was tested by sending a POST request via Postman, including the new medicine's name and price in the form-data. The response confirmed successful creation with a status code of 200.
 
-![Alt text](assets/6.png)
+![alt text](assets/6.png)
 
-![Alt text](assets/7.png)
+![alt text](assets/7.png)
 
 
 ### 5. Test: Update Medicine Details
 
 A POST request was crafted to update the price of the medicine *Paracetamol*. Since the name serves as a unique identifier, only the price was modified, updated from 7.99 to 10.99. The response confirmed success with a status code of 200.
 
-![Alt text] (assets/8.png)
+![alt text] (assets/8.png)
 
 ### 6. Test: Delete a Medicine
 
 The `/delete` endpoint was tested by sending a DELETE request. The response returned a success message and a status code of 200, indicating the medicine was deleted correctly.
 
-![Alt text](assets/9.png)
+![alt text](assets/9.png)
 
 ## Did you utilize any external resources?
 

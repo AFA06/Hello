@@ -6,7 +6,7 @@ The Medicine Tracker project provides a streamlined solution for pharmacy invent
 
 
 ## Project Structure
-
+```
 ├── assests
 ├── backend
    ├── data.json
@@ -20,7 +20,7 @@ The Medicine Tracker project provides a streamlined solution for pharmacy invent
    ├── manage.js
    ├── script.js
    ├── styles.css
-
+```
  
 
 ## Prerequisites 

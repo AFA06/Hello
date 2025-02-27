@@ -50,7 +50,8 @@ Testing was a significant part of the project. I used Postman to test each API e
 ### 1. Test: Retrieve All Medicines
 
 To validate the `/medicine` endpoint, a GET request was executed using Postman. The request successfully returned a status code of 200 and included a JSON body containing the details of all medicines.
-![alt text](assets/1.png)
+![alt text](../assets/1.png)
+
 ### 2. Test: Frontend Verification
 
 The frontend functionality was verified by opening the `index.html` file in a web browser. The user interface displayed a header titled "Medicine Tracker," confirming the frontend was operational.
